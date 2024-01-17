@@ -344,6 +344,53 @@ body{
     margin-left: 2rem;
 }
 
+/* perfect-place-section */
+
+.perfect-place-container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.perfect-place-title{
+    width: 448px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+.perfect-place-description{
+    width: 532px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 1.5rem;
+}
+.perfect-place-list-container{
+    width: 518px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.perfect-place-list{
+    margin-top: 1rem;
+}
+.tabby-cat{
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);  
+}
 
 @media screen and (max-width: 600px){
     
@@ -500,6 +547,42 @@ body{
 .box-container img{
     width: 48px;
     height: 48px;
+}
+
+/* perfect-place-section */
+
+.perfect-place-container{
+    max-width: 335px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.perfect-place-title{
+    width: 248px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.perfect-place-description{
+    width: 335px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+.perfect-place-list-container{
+    width: 335px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.perfect-place-list{
+    margin-top: 0.8rem;
+}
+.tabby-cat{
+    width: 335px;
+    height: 200px;
+    margin-top: 1.5rem;
 }
    
 }

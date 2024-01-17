@@ -261,6 +261,89 @@ body{
     height: 300px;
 }
 
+/* exceptionality-section */
+
+.exceptionality-container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.exceptionality-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.exceptionality-description{
+    width: 643px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 1.3rem;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.box-1{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.box-2{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.box-3{
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.box-container h5{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 1.6rem;
+    margin-left: 2rem;
+}
+.box-container p{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.box-container img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
 
 @media screen and (max-width: 600px){
     
@@ -377,4 +460,46 @@ body{
         flex-shrink: 0;
    }
 
+   /* exceptionality-section */
+
+   .exceptionality-container{
+        max-width: 335px;
+        width: 100%;
+        flex-direction: column;
+   }
+   .exceptionality-title{
+        font-size: 20px;
+   }
+   .exceptionality-description{
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 0.8rem;
+   }
+   .box-container{
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+   }
+   .box-1, .box-2, .box-3{
+    width: 335px;
+    height: 289px;
+   }
+   .box-container h5{
+    font-size: 20px;
+    margin-top: 1.4rem;
+    margin-left: 2rem;
+}
+.box-container p{
+    width: 271px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+}
+.box-container img{
+    width: 48px;
+    height: 48px;
+}
+   
 }
